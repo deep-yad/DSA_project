@@ -1,0 +1,23 @@
+/* Update the About Us Page CSS in your CSS file */
+
+.about-us-page {
+    padding: 70px;
+    margin-top: 2rem;
+  }
+  .ourteam{
+
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-us-page h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .team-member-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  

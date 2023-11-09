@@ -1,0 +1,76 @@
+/* Update the Navbar CSS in your CSS file */
+
+.navbar {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 30px;
+    background: rgba(21, 72, 104, 0.9); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+    z-index: 1000; /* Ensure the navbar is on top */
+  }
+  
+  .navbar .logo img {
+    height: 50px;
+    width: 50px;
+    padding: 0px 5rem;
+    border-radius: 50%;
+    
+  }
+  
+  .navbar .nav-links {
+    display: flex;
+    padding-right: 4rem;
+  }
+  
+  .navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 2.3rem;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar .nav-links a:hover {
+    color: #00c9ff;
+    
+  }
+  
+  .navbar .nav-links a:last-child {
+    margin-right: 0;
+  }
+  
+  /* Add a small animation for a subtle hover effect */
+  .navbar .nav-links a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #00c9ff;
+    transition: width 0.3s;
+  }
+  
+  .navbar .nav-links a:hover::after {
+    width: 100%;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 15px;
+    }
+  
+    .navbar .nav-links {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar .nav-links a {
+      margin: 10px 0;
+    }
+  }
+  

@@ -1,0 +1,37 @@
+/* Update the Team Member Card CSS in your CSS file */
+
+.team-member-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+  }
+  
+  .team-member-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member-card h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .team-member-card h3 {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .team-member-card {
+      width: 80%;
+    }
+  }
+  

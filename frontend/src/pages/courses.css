@@ -1,0 +1,21 @@
+/* Update the Courses Page CSS in your CSS file */
+
+.courses-page {
+  margin-top: 5rem;
+    padding: 50px;
+  }
+  .coursesh1{
+    display: flex;
+    justify-content: center;
+  }
+  .courses-page h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .course-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
