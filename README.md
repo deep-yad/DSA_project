@@ -1,9 +1,9 @@
 # Face-Recognition  Attendance System
 
 ## Team Details:
--Debasish Padhy (220001025)
--Deepak Yadav (220001026)
--Pranav Kalwaghe (220001035)
+- Debasish Padhy (220001025)
+- Deepak Yadav (220001026)
+- Pranav Kalwaghe (220001035)
   
 ## Overview
 
