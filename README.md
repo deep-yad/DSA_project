@@ -15,6 +15,12 @@ This project is an attendance management system that uses the power of InsightFa
 - User-friendly interface
 - Different courses selection and date selection
 
+- ## Data Structures
+
+- Python List
+- Numpy Array
+- Dictionary
+
 ## InsightFace
 
 -InsightFace is an integrated Python library for 2D&3D face analysis. InsightFace efficiently implements a rich variety of state of the art algorithms of face recognition,
